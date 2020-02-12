@@ -10,6 +10,15 @@ body, html {
     text-align: center;
 }
 
+#boxTwo{
+    float: right;
+}
+
+#boxThree{
+    float: left;
+}
+
 #boxFour{
     text-align: center;
+    clear:both;
 }
