@@ -20,7 +20,7 @@ h1 {
 
 #boxFour{
     text-align: center;
-    /* clear: both; */
+    clear: both;
 }
 
 #boxAside{
@@ -30,7 +30,7 @@ h1 {
 #spanTwo {
     display: inline-block;
     width: 100px;
-    height: 200px;
+    height: 700px;
     padding: 5px;
     border: black;
     background-color: turquoise;
