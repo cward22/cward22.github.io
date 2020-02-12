@@ -6,32 +6,33 @@ h1 {
     height: 100%
 } */
 
-#boxOne{
+#boxOne {
     text-align: center;
 }
 
-#boxTwo{
+#boxTwo {
     text-align:center;
 }
 
-/* #boxThree{
+/* #boxThree {
     float: left;
 } */
 
-#boxFour{
+#boxFour {
     text-align: center;
     clear: both;
 }
 
-#boxAside{
+#boxAside {
     float: right;
 }
 
 #spanTwo {
     display: inline-block;
-    width: 100px;
+    width: 125px;
     height: 700px;
     padding: 5px;
     border: black;
     background-color: turquoise;
 }
+
