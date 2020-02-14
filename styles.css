@@ -1,57 +1,39 @@
-h1 {
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/lajolla.jpg);
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
     text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
 }
 
-p {
-    font-family: "Comic Sans MS", cursive, sans-serif;
-}
-
-body, html {
-    background-color: #f2f2f2;
-}
-
-#boxOne {
-    text-align: center;
-    background: linear-gradient(#00cc99, #3d8f7a);
-}
-
-#boxTwo {
-    text-align: center;
-    background-image: url(images/two.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* #boxThree {
-    float: left;
-} */
-
-#boxFour {
-    text-align: center;
-    clear: both;
-    background: linear-gradient(#3d8f7a, #616b69);
-}
-
-#boxAside {
-    float: right;
-    background-color: white;
-}
-
-#spanTwo {
+.hero-text button {
+    border: none;
+    outline: 0;
     display: inline-block;
-    width: 125px;
-    height: 600px;
-    padding: 5px;
-    border: black;
-    background-color: turquoise;
-    
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
 }
 
-.anchor {
-    font-family: 'Indie Flower', cursive;
-}
-
-#boxThree {
-    background-color: #e6fffa;
+.hero-text button:hover {
+    background-color: #555;
+    color: white;
 }
