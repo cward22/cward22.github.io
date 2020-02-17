@@ -46,9 +46,14 @@ body, html {
 }
 
 #aboutMe-title {
+    text-align: center;
     text-transform: uppercase;
     color: #474747;
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.5;
     font-weight: bold;
+}
+
+#aboutMe-section {
+    text-align: center;
 }
