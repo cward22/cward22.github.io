@@ -39,3 +39,16 @@ body, html {
     background-color: #555;
     color: white;
 }
+
+#aboutMe {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#aboutMe-title {
+    text-transform: uppercase;
+    color: #474747;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+}
