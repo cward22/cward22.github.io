@@ -57,4 +57,5 @@ body, html {
 #aboutMe-section {
     text-align: justify;
     margin: 300px;
+    position: absolute;
 }
