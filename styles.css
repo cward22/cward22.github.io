@@ -45,8 +45,9 @@ body, html {
 }
 
 #myStory-text {
-    text-align: center;
+    text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
+    /* padding: 30px; */
 }
 
 #myStory-title {
@@ -59,8 +60,10 @@ body, html {
 }
 
 #myStory-section {
-    text-align: justify;
-    /* margin: 204px; */
+    max-width: 500px;
+    margin: auto;
+    /* text-align: justify;
+    margin: 204px; */
 }
 
 #footer {
