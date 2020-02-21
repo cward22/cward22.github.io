@@ -44,6 +44,13 @@ body, html {
     height: 18%;
 }
 
+/* #header {
+    text-align: center;
+    padding: 50px;
+    background: #1abc9c;
+    color: black;
+} */
+
 #myStory-text {
     text-align: justify;
     /* color: #474747; */
