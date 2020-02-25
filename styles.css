@@ -44,12 +44,18 @@ body, html {
     height: 18%;
 }
 
-/* #header {
+#header {
     text-align: center;
-    padding: 50px;
-    background: #1abc9c;
+    padding: 60px;
+    /* background: #1abc9c;
+    color: black; */
+}
+
+.navbar {
+    /* background-color:rgb(218, 211, 211); */
     color: black;
-} */
+    padding: 90px;
+}
 
 #myStory-text {
     text-align: justify;
@@ -70,8 +76,6 @@ body, html {
 #myStory-section {
     max-width: 500px;
     margin: auto;
-    /* text-align: justify;
-    margin: 204px; */
 }
 
 #bottom {
