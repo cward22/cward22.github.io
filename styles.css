@@ -57,7 +57,7 @@ body, html {
     padding: 180px;
 } */
 
-#myStory-text {
+#myStory-text, #myStory-text2 {
     text-align: justify;
     /* color: #474747; */
     font-family: Arial, Helvetica, sans-serif;
