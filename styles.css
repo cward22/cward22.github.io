@@ -74,7 +74,7 @@ body, html {
 }
 
 #contact-text {
-    padding: 60px;
+    padding: 80px;
 }
 
 #back1, #next1, #back2, #next2 {
@@ -86,8 +86,3 @@ body, html {
     height: 30%;
     text-align: center;
 }
-
-#bottom2 {
-    margin: 80px;
-}
-
