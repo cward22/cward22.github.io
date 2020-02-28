@@ -73,16 +73,21 @@ body, html {
     margin: auto;
 }
 
+#contact-text {
+    padding: 60px;
+}
+
 #back1, #next1, #back2, #next2 {
     margin: 16px 14px;
     padding: 2px 8px;
 }
 
 .bottom {
-    height: 10%;
+    height: 30%;
     text-align: center;
 }
 
 #bottom2 {
-    margin: 200px;
+    margin: 80px;
 }
+
