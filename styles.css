@@ -79,13 +79,17 @@ body, html {
 
 #back1, #next1, #back2, #next2 {
     margin: 16px 14px;
-    padding: 6px 9px;
+    padding: 8px 9px;
+    background-color: rgb(229, 226, 226);
+    border-color: #555;
+    border-radius: 2px;
+    border: none;
 }
 
-.buttons:hover {
-    background-color: rgb(17, 17, 17);
+#back1:hover, #next1:hover, #back2:hover, #next2:hover {
+    background-color: black;
+    border-color: black;
     color: white;
-    border-color: rgb(17, 17, 17);
 }
 
 .bottom {
