@@ -40,22 +40,26 @@ body, html {
     color: white;
 }
 
-#top {
+#top1 {
     height: 18%;
 }
 
-#header {
+#top2 {
+    height: 25%;
+}
+
+.header {
     text-align: center;
     padding: 60px;
 }
 
-#myStory-text {
+.text {
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     padding: 14px;
 }
 
-#myStory-title {
+.titles {
     text-align: center;
     text-transform: uppercase;
     color: #474747;
@@ -64,17 +68,21 @@ body, html {
     font-weight: bold;
 }
 
-#myStory-section {
+#myStory-section, #contact-section {
     max-width: 500px;
     margin: auto;
 }
 
-#home, #email {
+#back, #next {
     margin: 16px 14px;
     padding: 2px 8px;
 }
 
-#bottom {
+.bottom {
     height: 10%;
     text-align: center;
+}
+
+#bottom2 {
+    margin: 222px;
 }
