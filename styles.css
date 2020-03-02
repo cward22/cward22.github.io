@@ -45,7 +45,7 @@ body, html {
 }
 
 #top2 {
-    height: 25%;
+    height: 30%;
 }
 
 .header {
@@ -68,13 +68,18 @@ body, html {
     font-weight: bold;
 }
 
-#myStory-section, #contact-section {
+#myStory-section {
     max-width: 500px;
     margin: auto;
 }
 
+#contact-section {
+    max-width: 400px;
+    margin: auto;
+}
+
 #contact-text {
-    padding: 80px;
+    /* padding: 80px; */
 }
 
 #back1, #next1, #back2, #next2 {
@@ -95,4 +100,8 @@ body, html {
 .bottom {
     height: 30%;
     text-align: center;
+}
+
+#bottom2 {
+    margin: 100px;
 }
