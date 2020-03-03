@@ -101,13 +101,14 @@ body, html {
 
 #LinkedIn {
     /* color: rgb(3, 119, 119); */
-    color: #474747;
+    /* color: #474747; */
     /* color: black; */
-}
-
-#LinkedIn:hover {
     color: purple;
 }
+
+/* #LinkedIn:hover {
+    color: purple;
+} */
 
 #back1, #next1, #back2, #next2 {
     margin: 16px 12px;
