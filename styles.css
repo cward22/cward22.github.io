@@ -45,7 +45,7 @@ body, html {
 }
 
 #top2 {
-    height: 30%;
+    height: 22%;
 }
 
 .header {
@@ -83,7 +83,7 @@ body, html {
 }
 
 #back1, #next1, #back2, #next2 {
-    margin: 16px 14px;
+    margin: 16px 12px;
     padding: 8px 9px;
     background-color: rgb(229, 226, 226);
     border-color: #555;
@@ -103,5 +103,5 @@ body, html {
 }
 
 #bottom2 {
-    margin: 100px;
+    margin: 70px;
 }
