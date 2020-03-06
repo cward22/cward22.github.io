@@ -1,61 +1,13 @@
+/* Across pages */
+
 body, html {
     height: 100%;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/lajolla.jpg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-}
-
-
-.hero-text button {
-    border: none;
-    display: inline-block;
-    padding: 5px 14px;
-    margin: 2px;
-    border-radius: 1px;
-    color: black;
-    background-color: #ddd;
-    text-align: center;
-    cursor: pointer;
-}
-
-.hero-text button:hover {
-    background-color: #555;
-    color: white;
-}
-
-#top1 {
-    height: 18%;
-}
-
-#top2 {
-    height: 28%;
-}
-
-.header {
-    text-align: center;
-    padding: 60px;
-}
-
 .text {
     text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
     padding: 14px;
 }
 
@@ -68,9 +20,69 @@ body, html {
     font-weight: bold;
 }
 
+/* Homepage */
+
+#hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/lajolla.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#hero-text-button {
+    border: none;
+    display: inline-block;
+    padding: 5px 14px;
+    margin: 2px;
+    border-radius: 1px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+}
+
+#hero-text-button:hover {
+    background-color: #555;
+    color: white;
+}
+
+/* My Story */
+
+.header {
+    text-align: center;
+    padding: 60px;
+}
+
+#top1 {
+    height: 18%;
+}
+
+
 #myStory-section {
     max-width: 500px;
     margin: auto;
+}
+
+#bottom1 {
+    height: 20%;
+    text-align: center;
+}
+
+/* Contact */
+
+#top2 {
+    height: 28%;
 }
 
 #contact-section {
@@ -87,14 +99,20 @@ body, html {
     padding: 0px;
 }
 
-
 #LinkedIn {
     color: purple;
 }
 
+#bottom2 {
+    margin: 30px;
+    text-align: center;
+}
+
+/* Additional buttons */
+
 #back1, #next1, #back2, #next2 {
     margin: 16px 12px;
-    padding: 7px 14px;
+    padding: 6px 14px;
     background-color: rgb(229, 226, 226);
     border-radius: 1px;
     border: none;
@@ -104,13 +122,4 @@ body, html {
 #back1:hover, #next1:hover, #back2:hover, #next2:hover {
     background-color: black;
     color: white;
-}
-
-.bottom {
-    height: 30%;
-    text-align: center;
-}
-
-#bottom2 {
-    margin: 30px;
 }
