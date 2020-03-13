@@ -31,6 +31,21 @@ body, html {
     position: relative;
 }
 
+#icon {
+    float: right;
+    background-color: rgb(235, 225, 225);
+    border-radius: 25px;
+    height: 14px;
+    width: 12px;
+    margin: 22px;
+    cursor: pointer;
+}
+
+#icon1 {
+    margin: -4px;
+    height: 20px;
+}
+
 #hero-text {
     text-align: center;
     position: absolute;
