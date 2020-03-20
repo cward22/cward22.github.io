@@ -9,15 +9,18 @@ body, html {
 .text {
     text-align: justify;
     padding: 14px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .titles {
     text-align: center;
     text-transform: uppercase;
     color: #474747;
-    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
     font-weight: bold;
+    font-size: 20px;
 }
 
 /* Homepage */
@@ -80,9 +83,9 @@ body, html {
 #hero-text-button {
     font-family: 'Open Sans', sans-serif;
     display: inline-block;
-    padding: 3px 14px;
+    padding: 4px 14px;
     margin: 0;
-    border-radius: 1px;
+    border-radius: 16px;
     color: white;
     background-color: rgb(85, 85, 85);
     text-align: center;
@@ -104,9 +107,12 @@ body, html {
 }
 
 #top1 {
-    height: 18%;
+    height: 14%;
 }
 
+#hRule1 {
+    width: 470px;
+}
 
 #myStory-section {
     max-width: 500px;
@@ -114,18 +120,22 @@ body, html {
 }
 
 #bottom1 {
-    height: 20%;
+    height: 24%;
     text-align: center;
 }
 
 /* Contact */
 
 #top2 {
-    height: 28%;
+    height: 20%;
+}
+
+#hRule2 {
+    width: 368px;
 }
 
 #contact-section {
-    max-width: 402px;
+    max-width: 460px;
     margin: auto;
 }
 
@@ -143,19 +153,20 @@ body, html {
 }
 
 #bottom2 {
-    margin: 30px;
+    margin: 40px;
     text-align: center;
 }
 
 /* Additional buttons */
 
 #back1, #next1, #back2, #next2 {
+    font-family: 'Open Sans', sans-serif;
     margin: 16px 12px;
-    padding: 6px 14px;
-    background-color: rgb(229, 226, 226);
-    border-radius: 1px;
-    border: none;
-    cursor: pointer;  
+    padding: 5px 14px;
+    /* background-color: rgb(229, 226, 226); */
+    background-color:#fff;
+    border-radius: 16px;
+    cursor: pointer;
 }
 
 #back1:hover, #next1:hover, #back2:hover, #next2:hover {
