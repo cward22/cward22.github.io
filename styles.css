@@ -46,6 +46,11 @@ body, html {
     height: 20px;
 }
 
+#hoverDiv {
+    display: inline-block;
+    z-index: 2;
+}
+
 #hero-text {
     text-align: center;
     position: absolute;
@@ -55,21 +60,40 @@ body, html {
     color: white;
 }
 
+#lineOne, #lineTwo {
+    font-family: 'Caveat', cursive;
+}
+
+#lineOne {
+    font-weight: normal;
+    font-size: 36px;
+    padding: 6px;
+    line-height: 0;
+}
+
+#lineTwo {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+}
+
 #hero-text-button {
-    border: none;
+    font-family: 'Open Sans', sans-serif;
     display: inline-block;
-    padding: 5px 14px;
-    margin: 2px;
+    padding: 3px 14px;
+    margin: 0;
     border-radius: 1px;
-    color: black;
-    background-color: #ddd;
+    color: white;
+    background-color: rgb(85, 85, 85);
     text-align: center;
     cursor: pointer;
+    border-color: white;
+    font-weight: 400;
 }
 
 #hero-text-button:hover {
-    background-color: #555;
-    color: white;
+    background-color: #fff;
+    color: black;
 }
 
 /* My Story */
