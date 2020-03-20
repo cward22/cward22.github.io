@@ -3,7 +3,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 .text {
@@ -14,12 +14,13 @@ body, html {
 
 .titles {
     text-align: center;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: #474747;
     /* font-family: 'Source Sans Pro', sans-serif; */
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Caveat', cursive;
     line-height: 1.5;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 20px;
 }
 
@@ -75,28 +76,31 @@ body, html {
 }
 
 #lineTwo {
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 500;
     line-height: 1;
+    margin: 15px;
 }
 
 #hero-text-button {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Caveat', cursive;
     display: inline-block;
     padding: 4px 14px;
     margin: 0;
     border-radius: 16px;
-    color: white;
-    background-color: rgb(85, 85, 85);
-    text-align: center;
+    color: black;
+    /* background-color: rgb(219, 224, 224); */
+    background-color: rgb(229, 226, 226);
     cursor: pointer;
-    border-color: white;
+    border: none;
     font-weight: 400;
+    font-size: 17px;
 }
 
 #hero-text-button:hover {
-    background-color: #fff;
-    color: black;
+    background-color: rgb(85, 85, 85);
+    color: white;
 }
 
 /* My Story */
@@ -127,7 +131,7 @@ body, html {
 /* Contact */
 
 #top2 {
-    height: 20%;
+    height: 18%;
 }
 
 /* #hRule2 {
@@ -140,12 +144,18 @@ body, html {
 }
 
 #contact-text {
-    text-align: center;
+    text-align: justify;
+    margin: -4px;
 }
 
 #contact-text2 {
     text-align: center;
-    padding: 0px;
+    line-height: 0;
+}
+
+#contact-text3 {
+    text-align: center;
+    margin: 4px;
 }
 
 #LinkedIn {
@@ -153,7 +163,7 @@ body, html {
 }
 
 #bottom2 {
-    margin: 40px;
+    margin: 26px;
     text-align: center;
 }
 
