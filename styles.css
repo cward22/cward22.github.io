@@ -110,9 +110,9 @@ body, html {
     height: 14%;
 }
 
-#hRule1 {
+/* #hRule1 {
     width: 470px;
-}
+} */
 
 #myStory-section {
     max-width: 500px;
@@ -130,9 +130,9 @@ body, html {
     height: 20%;
 }
 
-#hRule2 {
+/* #hRule2 {
     width: 368px;
-}
+} */
 
 #contact-section {
     max-width: 460px;
