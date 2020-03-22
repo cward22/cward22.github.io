@@ -19,9 +19,11 @@ body, html {
     /* font-family: 'Source Sans Pro', sans-serif; */
     /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Caveat', cursive;
-    line-height: 1.5;
+    /* line-height: 1.5; */
     /* font-weight: bold; */
-    font-size: 20px;
+    font-size: 30px;
+    margin: 20px;
+    font-weight: 600;
 }
 
 /* Homepage */
@@ -171,6 +173,7 @@ body, html {
 
 #back1, #next1, #back2, #next2 {
     font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Caveat', cursive; */
     margin: 16px 12px;
     padding: 5px 14px;
     /* background-color: rgb(229, 226, 226); */
