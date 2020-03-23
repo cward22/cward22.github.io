@@ -68,37 +68,35 @@ body, html {
 
 #lineOne, #lineTwo, #underlinedText {
     font-family: 'Caveat', cursive;
+    line-height: 0.6;
 }
 
 #lineOne {
     font-weight: normal;
     font-size: 37px;
-    line-height: 0;
+    padding: 4px;
 }
 
 #lineTwo {
-    font-size: 21px;
+    font-size: 22px;
     font-weight: 500;
-    line-height: 1;
-    padding: 6px;
+    margin: 10          px;
 }
 
 #underlinedText {
     text-decoration: underline;
-    font-size: 18px;
+    font-size: 19px;
+    padding: 12px;
     cursor: pointer;
-    margin: 5px;
 }
 
 #hero-text-button {
-    /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Caveat', cursive;
     display: inline-block;
     padding: 4px 14px;
     margin: 0;
     border-radius: 16px;
     color: black;
-    /* background-color: rgb(219, 224, 224); */
     background-color: rgb(229, 226, 226);
     cursor: pointer;
     border: none;
@@ -122,10 +120,6 @@ body, html {
     height: 14%;
 }
 
-/* #hRule1 {
-    width: 470px;
-} */
-
 #myStory-section {
     max-width: 500px;
     margin: auto;
@@ -139,12 +133,8 @@ body, html {
 /* Contact */
 
 #top2 {
-    height: 18%;
+    height: 22%;
 }
-
-/* #hRule2 {
-    width: 368px;
-} */
 
 #contact-section {
     max-width: 460px;
@@ -155,11 +145,6 @@ body, html {
     text-align: justify;
     margin: -4px;
 }
-
-/* #contact-text2 {
-    text-align: center;
-    line-height: 0;
-} */
 
 #contact-text3 {
     text-align: center;
@@ -182,7 +167,6 @@ body, html {
     /* font-family: 'Caveat', cursive; */
     margin: 16px 12px;
     padding: 5px 14px;
-    /* background-color: rgb(229, 226, 226); */
     background-color:#fff;
     border-radius: 16px;
     cursor: pointer;
