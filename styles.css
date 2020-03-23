@@ -68,25 +68,27 @@ body, html {
 
 #lineOne, #lineTwo, #underlinedText {
     font-family: 'Caveat', cursive;
-    line-height: 0.6;
 }
 
 #lineOne {
     font-weight: normal;
     font-size: 37px;
     padding: 4px;
+    line-height: 0.6;
 }
 
 #lineTwo {
     font-size: 22px;
     font-weight: 500;
-    margin: 10          px;
+    margin: 10px;
+    line-height: 0.6;
 }
 
 #underlinedText {
     text-decoration: underline;
     font-size: 19px;
     padding: 12px;
+    line-height: 0.4;
     cursor: pointer;
 }
 
