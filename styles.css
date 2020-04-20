@@ -56,7 +56,7 @@ body, html {
     color: white;
 }
 
-#lineOne, #lineTwo, #underlinedText {
+#lineOne, #lineTwo, #lineThree {
     font-family: 'Caveat', cursive;
 }
 
@@ -75,7 +75,7 @@ body, html {
     padding: 4px;
 }
 
-#underlinedText {
+#lineThree {
     font-size: 20px;
     padding: 8px;
     line-height: 0.8;
