@@ -84,7 +84,7 @@ body, html {
     border-radius: 5px;
 }
 
-#underlinedText:hover {
+#lineThree:hover {
     background-color: rgb(88, 88, 88);
 }
 
