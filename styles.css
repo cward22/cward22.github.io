@@ -9,7 +9,7 @@ body, html {
     text-align: justify;
     padding: 14px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 14.5px;
+    font-size: 15px;
 }
 
 .titles {
@@ -136,7 +136,11 @@ body, html {
 }
 
 #rowOne {
-    margin: 20px;
+    margin: 10px;
+}
+
+#rowTwo {
+    margin: -6px;
 }
 
 #inst, #git, #linked, #heroku, #fig {
@@ -171,7 +175,7 @@ body, html {
 }
 
 #iconDiv {
-    margin: 30px;
+    margin: 32px;
 }
 
 #iconLink {
