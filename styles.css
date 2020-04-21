@@ -160,7 +160,7 @@ background-color: rgb(88, 88, 88);
     text-decoration: active;
 }
 
-#inst, #git, #linked, #heroku, #fig {
+#inst, #git, #linked, #codepen, #fig {
     margin: 2px 10px;
 }
 
@@ -174,7 +174,7 @@ background-color: rgb(88, 88, 88);
 
 #back1, #next1, #back2, #next2, #icons8Link {
     font-family: 'Caveat', cursive;
-    margin: 22px;
+    margin: 19px;
     padding: 5px 26px;
     font-size: 21px;
     background-color: rgb(252, 252, 252);
@@ -185,7 +185,7 @@ background-color: rgb(88, 88, 88);
 }
 
 #back2, #next2 {
-    margin: -2px 22px;
+    margin: -2px 19px;
 }
 
 #back1:hover, #next1:hover, #back2:hover, #next2:hover {
