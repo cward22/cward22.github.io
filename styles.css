@@ -80,12 +80,14 @@ body, html {
     padding: 8px;
     line-height: 0.8;
     cursor: pointer;
+    text-decoration: none;
     border: solid white;
     border-radius: 5px;
+
 }
 
 #lineThree:hover {
-    background-color: rgb(88, 88, 88);
+background-color: rgb(88, 88, 88);
 }
 
 #hero-text-button:hover {
