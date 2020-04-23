@@ -147,7 +147,7 @@ background-color: rgb(88, 88, 88);
 
 /* Email and icon pictures */
 
-#emailLink:link {
+#emailLink {
     color: black;
 }
 
@@ -161,7 +161,7 @@ background-color: rgb(88, 88, 88);
 }
 
 #emailLink:active {
-    color: rgb(61, 61, 61);
+    color: black;
 }
 
 #inst, #git, #linked, #codepen, #fig {
@@ -211,6 +211,7 @@ background-color: rgb(88, 88, 88);
 
 #icons8Link:visited {
     text-decoration: none;
+    color: black;
 }
 
 #icons8Link:hover {
@@ -219,5 +220,5 @@ background-color: rgb(88, 88, 88);
 }
 
 #icons8Link:active {
-    text-decoration: active;
+    color:black;
 }
